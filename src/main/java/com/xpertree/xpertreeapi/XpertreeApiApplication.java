@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 @ComponentScan(value="com.xpertree.*")
+@ComponentScan(value="com.xpertreeapi.*")
 public class XpertreeApiApplication {
 
 	public static void main(String[] args) {
