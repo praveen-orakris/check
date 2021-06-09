@@ -2,11 +2,13 @@ package com.xpertree.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="xt_jeb")
 public class Jeb {
+	@Id
 	@Column(name="JIN")
 	private int jin;
 	
